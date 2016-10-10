@@ -2,12 +2,45 @@
     <head>
         <title>About programming languages</title>
         <style type="text/css">
+         #wrap{
+             padding: 1em;
+             background-color: yellow;
+             width: 80%;
+             margin: 0 auto;
+         }
+         #wrap:after {
+             content: "";
+             display: block;
+             clear: both;
+         }
+
+         #site-title{
+             color: green;
+             }
+         #sidebar{
+             width: 20%;
+             float: left;
+             background-color: green;
+             color: white;
+         }
+         #main{
+             width: 70%;
+             margin-left: 1em;
+             padding: 1em;
+             float: left;
+             background-color: white
+         }
+         #main h1{
+             padding: 0.5em;
+             color: green;
+         }
+
         </style>
     </head>
     <body>
-        <div>
-            <h1>About programming languages</h1>
-            <aside>
+        <div id="wrap">
+            <h1 id="site-title">About programming languages</h1>
+            <aside id="sidebar">
                 <nav>
                     <ul>
                         <li>Ruby</li>
